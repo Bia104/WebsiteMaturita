@@ -29,3 +29,4 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
 - Original site was served from `https://cerinobianca.altervista.org` (Altervista subdomain). 
 - Site files mirrored from Altervista via FTP (`lftp`) on 2026-07-10.
+- Reference from Enrico Paolo Bisceglie.
