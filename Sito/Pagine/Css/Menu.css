@@ -1,0 +1,133 @@
+#navtop {
+	overflow: hidden;
+	background-color: #9370db;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	font-size: 12px;
+	text-transform: uppercase; 
+}
+
+.menutop {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+.menutop li {
+	float: right;
+}
+
+.menutop li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	border-left: 1px solid white;	
+	font-weight: normal;
+	
+}
+
+.menutop li:last-child a {
+	border-left: none;
+}
+.menutop li a:hover {
+	background-color: #763626;
+}
+
+
+.submenutop:before {
+	content: "\203A";
+}
+
+.submenu {
+	list-style-type: none;
+	display: none;
+	position: absolute;
+	color: black;
+	background-color: #31A2AC;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	text-align: center;
+}
+
+.submenu li a {
+	margin: 0;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.submenu li a:hover {
+	color: white;
+	background-color: #c71585;
+}
+
+.dropdown:hover .submenu {
+	display: block; 
+}
+
+#navleft {
+	background-color:#9370db;
+	font-size:11px; 
+	width: 172px;
+	padding: 5px;
+	overflow: hidden;
+	min-height:425px;
+}
+
+#navleft ul { 
+	padding: 0; 
+	margin:0;
+	list-style-type: none; 
+	position: relative; 
+		z-index:100; 
+	overflow: hidden; 
+}
+
+#navleft ul li {
+	vertical-align: middle;
+	padding: 5px 5px 5px 18px; 
+	margin:0; 
+	border-bottom: 1px solid #191970;	
+}
+
+#navleft ul li.first,
+#navleft ul li.leaf{ 
+	list-style-type: none; 
+}
+
+#navleft ul li a { 
+	color: black;
+	font-weight: normal;
+	text-decoration: none; 
+	margin:0 5px 0 0; 
+}
+
+#navleft ul li a:hover,
+#navleft ul li a:active{ 
+	color:#fff5ee; 
+}
+
+#navleft ul li a.select{ 
+	cursor: default;
+	font-weight: bold;
+	color: white;
+}
+
+#navleft ul ul#liv2 li{ 
+	list-style-image: none; 
+	border-bottom: none;
+}
+
+#navleft ul ul#liv2 li a.select { 
+	border-left: 3px solid #fff5ee;
+	font-weight: bold;
+	color: black;
+	padding-left: 2px; 
+}
